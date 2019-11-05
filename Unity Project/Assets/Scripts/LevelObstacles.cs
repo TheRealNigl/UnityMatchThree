@@ -22,11 +22,6 @@ public class LevelObstacles : Level {
 		hud.SetTarget (numObstaclesLeft);
 		hud.SetRemaining (numMoves);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public override void OnMove()
 	{

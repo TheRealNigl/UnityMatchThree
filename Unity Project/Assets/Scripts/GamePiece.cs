@@ -69,16 +69,6 @@ public class GamePiece : MonoBehaviour {
 		clearableComponent = GetComponent<ClearablePiece> ();
 	}
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
 	public void Init(int _x, int _y, Grid _grid, Grid.PieceType _type)
 	{
 		x = _x;

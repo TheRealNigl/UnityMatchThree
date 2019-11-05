@@ -31,11 +31,6 @@ public class Level : MonoBehaviour {
 	void Start () {
 		hud.SetScore (currentScore);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public virtual void GameWin()
 	{

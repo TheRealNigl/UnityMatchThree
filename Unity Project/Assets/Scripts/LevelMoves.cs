@@ -17,11 +17,6 @@ public class LevelMoves : Level {
 		hud.SetTarget (targetScore);
 		hud.SetRemaining (numMoves);
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public override void OnMove ()
 	{

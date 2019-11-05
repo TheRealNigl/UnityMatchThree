@@ -29,14 +29,9 @@ public class LevelSelect : MonoBehaviour {
 			}
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
-	public void OnButtonPress(string levelName)
+	public void OnButtonPress(int levelNum)
 	{
-		UnityEngine.SceneManagement.SceneManager.LoadScene (levelName);
+		UnityEngine.SceneManagement.SceneManager.LoadScene ("level" + levelNum.ToString());
 	}
 }

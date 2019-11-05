@@ -1,4 +1,5 @@
 sceneSetups:
-- path: D:/Documents/Game Programming Class/JeffFolder/jeff/Unity/UnityBreakOut/UnityBreakOut/Assets/Scenes/BreakOut.unity
+- path: Assets/Scenes/Level Select.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0

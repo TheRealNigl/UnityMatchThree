@@ -17,11 +17,6 @@ public class GameOver : MonoBehaviour {
 			stars [i].enabled = false;
 		}
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public void ShowLose()
 	{

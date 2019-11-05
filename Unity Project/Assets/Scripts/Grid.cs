@@ -94,11 +94,6 @@ public class Grid : MonoBehaviour {
 
 		StartCoroutine(Fill ());
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
 	public IEnumerator Fill()
 	{

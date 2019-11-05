@@ -43,7 +43,7 @@ public class ColorPiece : MonoBehaviour {
 
 	void Awake()
 	{
-		sprite = transform.Find ("piece").GetComponent<SpriteRenderer> ();
+		sprite = GetComponentInChildren<SpriteRenderer>();
 
 		colorSpriteDict = new Dictionary<ColorType, Sprite> ();
 
@@ -52,16 +52,6 @@ public class ColorPiece : MonoBehaviour {
 				colorSpriteDict.Add (colorSprites [i].color, colorSprites [i].sprite);
 			}
 		}
-	}
-
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
 	}
 
 	public void SetColor(ColorType newColor)

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2847009991618134060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2847009991618134059}
+  - component: {fileID: 2847009991618134058}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2847009991618134059
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2847009991618134060}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2847009991618134058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2847009991618134060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a62fb356db7d2834b87559058d1855a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xDim: 9
+  yDim: 9
+  fillTime: 0.1
+  level: {fileID: 1291643341887049181, guid: 51ed905b85ba04749981999d50a2294f, type: 3}
+  piecePrefabs:
+  - type: 0
+    prefab: {fileID: 120650, guid: ea4a513cca8f24f32974983d73c937f1, type: 3}
+  - type: 1
+    prefab: {fileID: 174492, guid: f6090629d79e1a34db1e37f9f517d5a2, type: 3}
+  - type: 2
+    prefab: {fileID: 180722, guid: f58dda481ce2948bb95c0280fd920f3e, type: 3}
+  - type: 3
+    prefab: {fileID: 110202, guid: 0ee7eafdb0f91476297f708563337a7f, type: 3}
+  - type: 4
+    prefab: {fileID: 136938, guid: a409c8080999f47bdb59f24abadc612b, type: 3}
+  - type: 5
+    prefab: {fileID: 161138, guid: e25ee3a047087499a97b580ae7ea1e2d, type: 3}
+  backgroundPrefab: {fileID: 126596, guid: 86f7705ed2388c64294da188eff4bc1b, type: 3}
+  initialPieces: []
